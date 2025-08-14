@@ -1,0 +1,93 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 500
+>>
+stream
+BT
+/F1 16 Tf
+50 750 Td
+(SHEHERYAR ABID) Tj
+0 -20 Td
+(Senior Cyber Security Engineer) Tj
+0 -40 Td
+(Email: sher@outlook.co.nz) Tj
+0 -20 Td
+(Website: https://sheheryara.bid) Tj
+0 -20 Td
+(LinkedIn: linkedin.com/in/sheheryarabid) Tj
+0 -40 Td
+(EXPERIENCE: 11+ Years in Cybersecurity) Tj
+0 -30 Td
+(Information Security Engineer - Wilson Group) Tj
+0 -20 Td
+(Cyber Security Operations Manager - CyberWatch) Tj
+0 -20 Td
+(Cyber Security Engineer - Westpac New Zealand) Tj
+0 -20 Td
+(SOE Engineer - Fujitsu) Tj
+0 -30 Td
+(CERTIFICATIONS:) Tj
+0 -20 Td
+(ISC2 Candidate, IBM Cybersecurity Architecture) Tj
+0 -20 Td
+(Zscaler ZIA Administrator, AWS Certified) Tj
+0 -30 Td
+(For complete details visit: https://sheheryara.bid) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000000826 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+883
+%%EOF
