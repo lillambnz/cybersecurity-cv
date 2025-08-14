@@ -1,0 +1,17 @@
+name = "sheheryara-cybersecurity-cv"
+compatibility_date = "2024-01-01"
+
+[env.production]
+routes = [
+  { pattern = "sheheryara.bid", zone_name = "sheheryara.bid" },
+  { pattern = "www.sheheryara.bid", zone_name = "sheheryara.bid" }
+]
+
+[[redirects]]
+from = "https://www.sheheryara.bid/*"
+to = "https://sheheryara.bid/:splat"
+status = 301
+
+[build]
+command = ""
+publish = "./"

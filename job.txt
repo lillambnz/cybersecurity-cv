@@ -1,0 +1,100 @@
+We are seeking an experienced Senior Cyber Security Engineer to promote the cybersecurity strategy, lead key initiatives, and safeguard our technology environment. This is a pivotal role, working closely with various teams to ensure robust protection of our data, systems, and networks.
+
+
+The Senior Cyber Security Engineer will take ownership of establishing and maintaining security policies, procedures, and operational standards to protect both IT and OT assets. You will be responsible for the design, implementation, and administration of security tools and processes, as well as managing cyber risks across various projects. Your expertise will help in responding to incidents, supporting audits, and ensuring compliance with industry standards such as NIST, ISO27001, and ASD.
+
+
+In this role, you'll lead security initiatives, contribute to disaster recovery plans, and continuously improve security measures, ensuring the integrity, confidentiality, and availability of systems and data. You will also work closely with stakeholders across the organization, helping to make strategic cybersecurity decisions while fostering a culture of security best practices.
+
+
+Key responsibilities:
+1. Service Management & Optimisation
+
+Provide expert guidance on cybersecurity projects, ensuring the timely delivery and maintenance of security operations.
+Ensure that cyber incidents are promptly responded to and remediations are executed according to service level agreements (SLAs).
+2. Cyber Technical Capabilities
+
+Act as the technical point of escalation for all security-related controls and concepts.
+Lead the implementation of cybersecurity best practices within projects and guide key stakeholders on security architecture best practices.
+Review and implement security policy and configurations, ensuring compliance with frameworks like CIS, SIEM, Palo Alto Firewalls, and more.
+3. Cyber Governance & Operations
+
+Conduct risk assessments to identify and mitigate internal and external security threats.
+Oversee outsourced security operations, ensuring SLAs and KPIs are met.
+Implement cyber hardening techniques and continuously monitor security measures for IT and OT systems.
+Ensure all security tools are configured according to best practices and managed throughout their lifecycle.
+4. Incident, Problem & Change Management
+
+Lead rapid response and investigation into security incidents, ensuring appropriate mitigation measures are taken to reduce the impact.
+Manage changes to security configurations, policies, and procedures, ensuring minimal disruption to ongoing operations and project lifecycles.
+5. Cyber Supply Chain Risk & Vendor Management
+
+Manage third-party vendors and partners providing security services or solutions, ensuring compliance with agreed security standards.
+Monitor and manage cybersecurity risks associated with external vendors throughout the lifecycle.
+6. Security & Compliance
+
+Develop and implement a NIST-based cybersecurity strategy, ensuring alignment with organizational goals.
+Conduct ongoing monitoring of security events and ensure timely, effective responses to emerging threats.
+Oversee security and compliance audits, ensuring that internal policies and external regulations are met.
+7. Information Security
+
+Develop and enforce information security policies and standards that govern the confidentiality, integrity, and availability of organizational data.
+Establish and implement data classification and security protocols across the business.
+8. Network & Cloud Security
+
+Manage the security of on-premises and cloud environments (Azure).
+Ensure proper implementation of network segmentation, VPN security, and Zero Trust models.
+Maintain and refine cloud security policies and standards for Azure.
+9. Disaster Recovery & Business Continuity
+
+Ensure that business continuity and disaster recovery plans incorporate appropriate security measures.
+Lead the testing of the Business Continuity Plan (BCP) and Disaster Recovery (DR) strategies to ensure business functions are protected in case of cyber incidents.
+10. Continuous Improvement
+
+Drive the implementation and improvement of cybersecurity processes and procedures.
+Ensure the continuous updating and sharing of security knowledge, best practices, and compliance standards across the organization.
+Lead ongoing improvements to security processes, ensuring they evolve in line with changing regulations and industry best practices.
+To excel in the role you will have:
+Experience:
+10-15 years of experience in cybersecurity or information security roles, including network security and system security.
+Significant experience in cybersecurity governance, risk management, and compliance.
+Proven expertise in developing and implementing security control assurance programs and supply chain risk assessment frameworks.
+Certifications:
+CISSP, CISM, or other security certifications are highly desirable.
+Knowledge of and certification in the SABSA Framework is a plus.
+Knowledge:
+Solid understanding of security management frameworks such as ISO27001, NIST, ASD, and other related security standards.
+Strong understanding of networking protocols and system security protocols.
+Familiarity with cloud environments (specifically Azure) and network security (e.g., VPN, Zero Trust).
+
+
+Working with us means working in a team environment where each person and team is valued for the diverse skills, ideas and experiences they bring. We promote a work environment that is characterised by personal accountability, mutual trust and respect and a genuine interest in employees. We understand our employees are the key to our success and as a team, our focus is to ensure they feel safe, valued and fulfilled in the work that they do.
+
+
+We provide a range of employee benefits including:
+flexible working arrangements
+professional development opportunities
+competitive remuneration based on skills and experience
+purchased additional annual leave
+health and wellbeing initiatives including
+$299 annual subsidy
+flu shots
+skin cancer checks
+paid parental leave
+staff discounts and rewards program
+novated leasing
+
+
+To learn more about Arc Infrastructure visit www.arcinfra.com/Careers
+
+
+If you're ready to take on a leadership role in cybersecurity and help protect critical infrastructure, we want to hear from you! Click the ‘Apply Now’ button to complete the online application.
+
+
+General queries can be directed to recruitment@arcinfra.com. Please note we are unable to accept emailed applications.
+
+
+Arc Infrastructure is committed to achieving a diverse and engaged workforce. We are an equal opportunity employer and encourage applications from female and Aboriginal and Torres Strait Island candidates.
+
+
+Applications close on 8 September 2025

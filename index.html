@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheheryar Abid - Senior Cyber Security Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-brand">
+            <span class="brand-text">&lt;/SH&gt;</span>
+        </div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#certifications" class="nav-link">Certifications</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="matrix-bg"></div>
+        <div class="hero-content">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="btn-close"></span>
+                        <span class="btn-minimize"></span>
+                        <span class="btn-maximize"></span>
+                    </div>
+                    <div class="terminal-title">cyber_security_engineer.exe</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">root@sheheryara:~$</span>
+                        <span class="typed-text" id="typed-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <div class="terminal-output" id="terminal-output">
+                        <div class="output-line">Initializing security protocols...</div>
+                        <div class="output-line">Loading credentials...</div>
+                        <div class="output-line success">✓ 10+ Years Experience Verified</div>
+                        <div class="output-line success">✓ Multiple Security Certifications Loaded</div>
+                        <div class="output-line success">✓ Critical Infrastructure Protection Active</div>
+                        <div class="output-line warning">⚡ Senior Cyber Security Engineer Available</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="SHEHERYAR ABID">SHEHERYAR ABID</span>
+                </h1>
+                <h2 class="hero-subtitle">Senior Cyber Security Engineer</h2>
+                <p class="hero-description">
+                    Safeguarding critical infrastructure with 11+ years of expertise in 
+                    cybersecurity governance, identity management, and cloud security architecture.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="11">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="15">0</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="100">0</span>
+                        <span class="stat-label">% Success Rate</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn-primary" onclick="scrollToSection('about')">
+                        <i class="fas fa-shield-alt"></i>
+                        Access Security Profile
+                    </button>
+                    <button class="btn-secondary" onclick="downloadCV()">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Security Profile</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="security-badge">
+                        <i class="fas fa-user-shield"></i>
+                        <span>CLASSIFIED: SECURITY CLEARANCE LEVEL 5</span>
+                    </div>
+                    <h3>Protecting Digital Assets & Critical Infrastructure</h3>
+                    <p>
+                        As a seasoned cybersecurity professional with over a decade of experience, 
+                        I specialize in designing and implementing comprehensive security frameworks 
+                        that protect organizational assets from evolving cyber threats.
+                    </p>
+                    <p>
+                        My expertise spans across identity and access management, cloud security 
+                        architecture, vulnerability management, and compliance frameworks including 
+                        NIST, ISO27001, and ASD standards. I have protected over 5000+ users and 
+                        thousands of servers including mainframes in critical banking infrastructure.
+                    </p>
+                    <div class="expertise-areas">
+                        <div class="expertise-item">
+                            <i class="fas fa-lock"></i>
+                            <span>Identity & Access Management</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-cloud-security"></i>
+                            <span>Cloud Security Architecture</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Vulnerability Management</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-clipboard-check"></i>
+                            <span>Compliance & Governance</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="security-dashboard">
+                        <div class="dashboard-header">
+                            <h4>Security Operations Center</h4>
+                            <div class="status-indicator active">ACTIVE</div>
+                        </div>
+                        <div class="dashboard-metrics">
+                            <div class="metric">
+                                <div class="metric-icon">
+                                    <i class="fas fa-shield-virus"></i>
+                                </div>
+                                <div class="metric-data">
+                                    <span class="metric-value">99.9%</span>
+                                    <span class="metric-label">Threat Detection</span>
+                                </div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-icon">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <div class="metric-data">
+                                    <span class="metric-value">100%</span>
+                                    <span class="metric-label">System Uptime</span>
+                                </div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-icon">
+                                    <i class="fas fa-users-cog"></i>
+                                </div>
+                                <div class="metric-data">
+                                    <span class="metric-value">5000+</span>
+                                    <span class="metric-label">Users & Servers Protected</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="security-graph">
+                            <canvas id="securityChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mission Timeline</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2024 - Present</div>
+                        <h3>Information Security Engineer</h3>
+                        <h4>Wilson Group</h4>
+                        <p><strong>Leading cybersecurity initiatives for critical infrastructure protection across hybrid environments.</strong></p>
+                        <ul class="role-details">
+                            <li><strong>Architecture Reviews:</strong> Conduct comprehensive security architecture assessments for new projects and infrastructure changes, ensuring alignment with industry best practices and regulatory requirements</li>
+                            <li><strong>Identity & Access Management:</strong> Design and implement advanced IAM solutions using Okta Identity Cloud, managing user provisioning, de-provisioning, and access governance for 1000+ users</li>
+                            <li><strong>Critical Infrastructure Protection:</strong> Develop and maintain security controls for essential services infrastructure, implementing NIST Cybersecurity Framework guidelines</li>
+                            <li><strong>Compliance Management:</strong> Ensure adherence to regulatory frameworks including ISO27001, NIST, and ASD Essential 8, conducting regular compliance audits and gap analyses</li>
+                            <li><strong>Project Management:</strong> Apply PMBOK methodologies to cybersecurity project delivery, coordinating cross-functional teams and stakeholder communications</li>
+                            <li><strong>Automation & Scripting:</strong> Develop Python-based security automation tools for vulnerability assessment, log analysis, and incident response workflows</li>
+                            <li><strong>Risk Assessment:</strong> Perform comprehensive risk assessments for IT and OT systems, developing mitigation strategies and business continuity plans</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python Security Automation</span>
+                            <span class="tech-tag">Okta Identity Cloud</span>
+                            <span class="tech-tag">Linux System Administration</span>
+                            <span class="tech-tag">PMBOK Project Management</span>
+                            <span class="tech-tag">Critical Infrastructure Protection</span>
+                            <span class="tech-tag">NIST Cybersecurity Framework</span>
+                            <span class="tech-tag">ISO27001 Compliance</span>
+                            <span class="tech-tag">Architecture Reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan 2022 - Sep 2024</div>
+                        <h3>Cyber Security Operations Manager</h3>
+                        <h4>CyberWatch (Remote - New Zealand)</h4>
+                        <p><strong>Managed end-to-end cybersecurity operations for enterprise clients, overseeing security assessments, identity management, and technical team leadership.</strong></p>
+                        <ul class="role-details">
+                            <li><strong>Security Operations Management:</strong> Led cybersecurity operations for multiple enterprise clients, managing 24/7 SOC activities, incident response, and threat hunting operations</li>
+                            <li><strong>Web Application Security:</strong> Designed and implemented WAF configurations, conducted web application security assessments, and managed vulnerability remediation programs</li>
+                            <li><strong>Privileged Access Management:</strong> Architected and deployed CyberArk PAM solutions, managing privileged accounts for high-risk systems and ensuring zero-trust access controls</li>
+                            <li><strong>Digital Identity Solutions:</strong> Implemented comprehensive identity governance programs, managing digital identity lifecycle and access certification processes</li>
+                            <li><strong>Technical Team Leadership:</strong> Managed cybersecurity technical teams, providing mentorship, skills development, and performance management for 8+ security professionals</li>
+                            <li><strong>IT Security Assessments:</strong> Conducted comprehensive security assessments including penetration testing, vulnerability assessments, and security control evaluations</li>
+                            <li><strong>Technical Recruiting:</strong> Led recruitment initiatives for cybersecurity positions, conducting technical interviews and building high-performing security teams</li>
+                            <li><strong>Machine Identity Management:</strong> Implemented certificate lifecycle management and machine identity security controls for automated systems and IoT devices</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Web Application Firewalls</span>
+                            <span class="tech-tag">CyberArk PAM</span>
+                            <span class="tech-tag">Digital Identity Governance</span>
+                            <span class="tech-tag">Security Operations Center</span>
+                            <span class="tech-tag">Vulnerability Management</span>
+                            <span class="tech-tag">Incident Response</span>
+                            <span class="tech-tag">Technical Team Leadership</span>
+                            <span class="tech-tag">Machine Identity Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-bank"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Nov 2020 - Sep 2024</div>
+                        <h3>Cyber Security Engineer</h3>
+                        <h4>Westpac New Zealand (Hybrid - Auckland)</h4>
+                        <p><strong>Protected critical banking infrastructure serving 5000+ users and thousands of servers including mainframes, implementing cutting-edge security technologies and compliance frameworks.</strong></p>
+                        <ul class="role-details">
+                            <li><strong>Post-Quantum Cryptography:</strong> Led implementation of quantum-resistant cryptographic solutions, preparing banking systems for post-quantum security threats and ensuring future-proof encryption</li>
+                            <li><strong>Enterprise Infrastructure Security:</strong> Managed security for complex banking infrastructure including mainframes, core banking systems, and distributed applications across hybrid cloud environments</li>
+                            <li><strong>Vulnerability Management:</strong> Designed and executed comprehensive vulnerability assessment programs, managing enterprise-wide scanning, assessment, and remediation for 5000+ endpoints</li>
+                            <li><strong>Privileged Access Management:</strong> Administered CyberArk PAM platform for critical banking systems, managing privileged accounts for mainframes, databases, and core banking applications</li>
+                            <li><strong>Identity Governance:</strong> Implemented SailPoint IdentityIQ for identity lifecycle management, access certification, and role-based access controls across banking operations</li>
+                            <li><strong>Email Security:</strong> Managed Proofpoint email security platform, implementing advanced threat protection, data loss prevention, and compliance monitoring</li>
+                            <li><strong>Certificate Management:</strong> Administered DigiCert SSL/TLS certificate infrastructure, managing PKI operations and ensuring secure communications for banking services</li>
+                            <li><strong>Architecture Reviews:</strong> Conducted security architecture reviews for new banking projects, ensuring compliance with RBNZ regulations and industry security standards</li>
+                            <li><strong>Critical Infrastructure Protection:</strong> Implemented security controls for payment systems, core banking platforms, and customer-facing applications</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Post Quantum Cryptography</span>
+                            <span class="tech-tag">CyberArk PAM</span>
+                            <span class="tech-tag">SailPoint IdentityIQ</span>
+                            <span class="tech-tag">Proofpoint Email Security</span>
+                            <span class="tech-tag">DigiCert PKI Management</span>
+                            <span class="tech-tag">Mainframe Security</span>
+                            <span class="tech-tag">Banking Infrastructure</span>
+                            <span class="tech-tag">Vulnerability Assessment</span>
+                            <span class="tech-tag">RBNZ Compliance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2018 - Oct 2020</div>
+                        <h3>SOE Engineer (Standard Operating Environment)</h3>
+                        <h4>Fujitsu (Hybrid)</h4>
+                        <p><strong>Designed and managed enterprise-grade standard operating environments, focusing on security hardening, system optimization, and infrastructure standardization across multiple client environments.</strong></p>
+                        <ul class="role-details">
+                            <li><strong>SOE Development & Management:</strong> Designed, built, and maintained standardized operating environments for enterprise clients, ensuring consistency, security, and compliance across diverse IT infrastructures</li>
+                            <li><strong>Security Hardening:</strong> Implemented comprehensive security hardening procedures for Windows and Linux systems, applying CIS benchmarks and industry security standards</li>
+                            <li><strong>System Optimization:</strong> Optimized system performance through configuration management, automated deployment processes, and infrastructure monitoring solutions</li>
+                            <li><strong>Linux Administration:</strong> Managed enterprise Linux environments including RHEL, CentOS, and Ubuntu systems, implementing security controls and system maintenance procedures</li>
+                            <li><strong>Deployment Automation:</strong> Developed automated deployment scripts and procedures for consistent SOE rollouts across multiple client environments</li>
+                            <li><strong>Configuration Management:</strong> Implemented configuration management solutions to ensure system compliance and security posture maintenance</li>
+                            <li><strong>Enterprise Infrastructure:</strong> Managed infrastructure components including virtualization platforms, storage systems, and network security appliances</li>
+                            <li><strong>Client Service Delivery:</strong> Provided technical consulting and SOE services to enterprise clients, ensuring service level agreement compliance and customer satisfaction</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Linux System Administration</span>
+                            <span class="tech-tag">Windows Server Management</span>
+                            <span class="tech-tag">Security Hardening</span>
+                            <span class="tech-tag">CIS Benchmarks</span>
+                            <span class="tech-tag">Configuration Management</span>
+                            <span class="tech-tag">Deployment Automation</span>
+                            <span class="tech-tag">Virtualization Platforms</span>
+                            <span class="tech-tag">Enterprise Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jun 2015 - Mar 2018</div>
+                        <h3>Senior Desktop Support Engineer</h3>
+                        <h4>Avis Budget Group (On-site)</h4>
+                        <p><strong>Led enterprise desktop support operations and technical infrastructure management for global car rental operations, providing advanced troubleshooting and system administration.</strong></p>
+                        <ul class="role-details">
+                            <li><strong>Senior Technical Leadership:</strong> Led desktop support team operations, providing technical guidance, mentoring junior staff, and managing escalated technical issues across enterprise environments</li>
+                            <li><strong>Enterprise Desktop Management:</strong> Managed desktop infrastructure for 2000+ endpoints across multiple locations, ensuring system reliability and user productivity</li>
+                            <li><strong>Active Directory Administration:</strong> Administered enterprise Active Directory environment including user account management, group policy configuration, and domain controller maintenance</li>
+                            <li><strong>System Administration:</strong> Performed advanced Windows system administration including server management, network troubleshooting, and security policy implementation</li>
+                            <li><strong>Infrastructure Projects:</strong> Led technical projects including system migrations, hardware refreshes, and software deployments across global operations</li>
+                            <li><strong>Security Implementation:</strong> Implemented desktop security controls including endpoint protection, access controls, and security policy enforcement</li>
+                            <li><strong>Incident Management:</strong> Managed critical incident response for business-critical systems, ensuring minimal downtime and rapid issue resolution</li>
+                            <li><strong>Technical Documentation:</strong> Created and maintained comprehensive technical documentation, procedures, and knowledge base articles for support operations</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Windows Server Administration</span>
+                            <span class="tech-tag">Active Directory Management</span>
+                            <span class="tech-tag">Group Policy Configuration</span>
+                            <span class="tech-tag">Enterprise Desktop Support</span>
+                            <span class="tech-tag">Network Troubleshooting</span>
+                            <span class="tech-tag">Technical Team Leadership</span>
+                            <span class="tech-tag">Incident Response</span>
+                            <span class="tech-tag">Security Policy Implementation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan 2013 - Apr 2015</div>
+                        <h3>Desktop Support Analyst</h3>
+                        <h4>Avis Budget Group (On-site)</h4>
+                        <p><strong>Provided comprehensive desktop support and system maintenance for global car rental operations, establishing foundational IT expertise and enterprise security understanding.</strong></p>
+                        <ul class="role-details">
+                            <li><strong>Desktop Support Operations:</strong> Delivered first and second-level desktop support for 1500+ users across multiple business units, maintaining high customer satisfaction and resolution rates</li>
+                            <li><strong>System Maintenance:</strong> Performed regular system maintenance tasks including software updates, security patching, and system optimization to ensure optimal performance</li>
+                            <li><strong>User Account Management:</strong> Managed user accounts, permissions, and access controls within Active Directory environment, ensuring proper security protocols</li>
+                            <li><strong>Hardware Management:</strong> Coordinated hardware procurement, deployment, and lifecycle management for desktop and mobile computing devices</li>
+                            <li><strong>Application Support:</strong> Provided support for business-critical applications including reservation systems, point-of-sale systems, and productivity software</li>
+                            <li><strong>Security Awareness:</strong> Implemented security best practices in daily operations, contributing to overall enterprise security posture and compliance requirements</li>
+                            <li><strong>Documentation & Procedures:</strong> Contributed to knowledge base development and maintained support procedures, improving team efficiency and service delivery</li>
+                            <li><strong>Escalation Management:</strong> Effectively managed technical escalations to senior team members and vendors, ensuring timely resolution of complex issues</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Windows Desktop Support</span>
+                            <span class="tech-tag">Active Directory Basics</span>
+                            <span class="tech-tag">Application Support</span>
+                            <span class="tech-tag">Hardware Lifecycle Management</span>
+                            <span class="tech-tag">User Account Management</span>
+                            <span class="tech-tag">Security Best Practices</span>
+                            <span class="tech-tag">Incident Ticketing Systems</span>
+                            <span class="tech-tag">Technical Documentation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Security Clearances</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>ISC2 Candidate</h3>
+                    <p>International Information System Security Certification Consortium</p>
+                    <div class="cert-date">Dec 2024</div>
+                    <div class="cert-status active">Active</div>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge">
+                        <i class="fab fa-ibm"></i>
+                    </div>
+                    <h3>IBM Cybersecurity Architecture</h3>
+                    <p>Advanced cybersecurity architecture and design principles</p>
+                    <div class="cert-date">Jun 2024</div>
+                    <div class="cert-status active">Verified</div>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Security Specialist</h3>
+                    <p>Security for Artificial Intelligence Software and Services</p>
+                    <div class="cert-date">Apr 2024</div>
+                    <div class="cert-status active">Certified</div>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Cortex XSOAR</h3>
+                    <p>Automation and Orchestration (EDU-380)</p>
+                    <div class="cert-date">Mar 2023</div>
+                    <div class="cert-status active">Expert</div>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Zscaler ZIA Administrator</h3>
+                    <p>Zscaler Internet Access Certified Administrator</p>
+                    <div class="cert-date">Mar 2023</div>
+                    <div class="cert-status active">Certified</div>
+                </div>
+
+                <div class="cert-card" data-aos="zoom-in">
+                    <div class="cert-badge">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS Solutions Architect</h3>
+                    <p>Multiple AWS Associate certifications completed</p>
+                    <div class="cert-date">2021</div>
+                    <div class="cert-status active">Associate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Security Arsenal</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category active" data-category="security">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Security Frameworks</span>
+                    </div>
+                    <div class="skill-category" data-category="identity">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Identity Management</span>
+                    </div>
+                    <div class="skill-category" data-category="cloud">
+                        <i class="fas fa-cloud"></i>
+                        <span>Cloud Security</span>
+                    </div>
+                    <div class="skill-category" data-category="tools">
+                        <i class="fas fa-tools"></i>
+                        <span>Security Tools</span>
+                    </div>
+                </div>
+                <div class="skills-display">
+                    <div class="skill-set active" id="security">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">NIST Cybersecurity Framework</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ISO27001</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ASD Essential 8</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CIS Controls</span>
+                                <span class="skill-level">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-set" id="identity">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Okta Identity Cloud</span>
+                                <span class="skill-level">94%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="94"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CyberArk PAM</span>
+                                <span class="skill-level">91%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="91"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SailPoint IdentityIQ</span>
+                                <span class="skill-level">87%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Zero Trust Architecture</span>
+                                <span class="skill-level">89%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="89"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-set" id="cloud">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Microsoft Azure Security</span>
+                                <span class="skill-level">93%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="93"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">AWS Security</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Cloud Security Posture Management</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Container Security</span>
+                                <span class="skill-level">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-set" id="tools">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Vulnerability Management</span>
+                                <span class="skill-level">96%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="96"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SIEM/SOAR Platforms</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python Security Automation</span>
+                                <span class="skill-level">87%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Penetration Testing</span>
+                                <span class="skill-level">84%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="84"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Secure Communication</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope-square"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Encrypted Email</h3>
+                            <p>sher@outlook.co.nz</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Professional Network</h3>
+                            <p>linkedin.com/in/sheheryarabid</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Perth, Western Australia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Secure Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span>&lt;/SH&gt;</span>
+                    <p>Senior Cyber Security Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#security">Security Notice</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sheheryar Abid. All rights reserved. | Secured with industry-standard encryption.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
