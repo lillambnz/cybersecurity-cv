@@ -280,7 +280,7 @@
     <div class="dashboard-container">
         <div class="header">
             <h1>🛡️ Ransomware Intelligence Dashboard</h1>
-            <p>Real-time ransomware attack monitoring powered by Ransomware.live API</p>
+            <p>Real-time ransomware attack monitoring and threat intelligence</p>
         </div>
 
         <div id="message-area"></div>
@@ -379,7 +379,7 @@
 
     <script>
         const API_KEY = '4caf2c57-0b30-490b-b406-371c5a338877';
-        const BASE_URL = 'https://api.ransomware.live';
+        const BASE_URL = 'https://api-pro.ransomware.live';
 
         async function apiCall(endpoint) {
             try {
@@ -420,13 +420,15 @@
 
         async function loadStats() {
             try {
-                const stats = await apiCall('/stats');
+                const response = await apiCall('/stats');
+                const stats = response.stats || response;
 
-                document.getElementById('total-victims').textContent = stats.total_victims || '0';
-                document.getElementById('active-groups').textContent = stats.total_groups || '0';
-                document.getElementById('recent-attacks').textContent = stats.last_24h_victims || '0';
+                document.getElementById('total-victims').textContent = stats.victims || stats.total_victims || '0';
+                document.getElementById('active-groups').textContent = stats.groups || stats.total_groups || '0';
+                document.getElementById('recent-attacks').textContent = stats.last_24h_victims || stats.press || '0';
                 document.getElementById('last-updated').textContent = new Date().toLocaleDateString();
             } catch (error) {
+                console.error('Error loading stats:', error);
                 document.getElementById('total-victims').textContent = 'Error';
                 document.getElementById('active-groups').textContent = 'Error';
                 document.getElementById('recent-attacks').textContent = 'Error';

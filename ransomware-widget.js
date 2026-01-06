@@ -21,7 +21,7 @@
     const RansomwareDashboard = {
         config: {
             apiKey: '4caf2c57-0b30-490b-b406-371c5a338877',
-            baseUrl: 'https://api.ransomware.live',
+            baseUrl: 'https://api-pro.ransomware.live',
             theme: 'light',
             autoRefresh: true,
             refreshInterval: 300000,
@@ -331,10 +331,11 @@
 
         loadStats: async function() {
             try {
-                const stats = await this.apiCall('/stats');
-                document.getElementById('rw-total-victims').textContent = stats.total_victims || '0';
-                document.getElementById('rw-active-groups').textContent = stats.total_groups || '0';
-                document.getElementById('rw-recent-attacks').textContent = stats.last_24h_victims || '0';
+                const response = await this.apiCall('/stats');
+                const stats = response.stats || response;
+                document.getElementById('rw-total-victims').textContent = stats.victims || stats.total_victims || '0';
+                document.getElementById('rw-active-groups').textContent = stats.groups || stats.total_groups || '0';
+                document.getElementById('rw-recent-attacks').textContent = stats.last_24h_victims || stats.press || '0';
             } catch (error) {
                 console.error('Error loading stats:', error);
             }
