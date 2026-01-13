@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sheheryara.bid/sitemap.xml
+
+# AI Consultant Perth Australia - Sheheryar Abid
+# AI Compliance, AI Regulations, AI Governance Expert
